@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Forum&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=GFS+Didot&family=Honk&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ height: 100vh;
+
+}
+.navbawr{
+    height:80px;
+    background-color:rgba(0, 0, 0, 0.1);
+    padding-top:10px;
+    background-color: #52057B;
+}
+.navs{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.nav-a,.nav-b{
+    text-decoration: none;
+    font-size:1.8rem;
+    font-weight: 700;
+    position: relative;
+    color:rgba(153, 150, 150, 0.5)
+    
+}
+.nav-a::after{
+    content: "";
+    position: absolute;
+    background-color: burlywood;
+    height: 2px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+    transition:0.5s;
+}
+
+.nav-a:hover::after{
+    width: 100%;
+
+}
+.nav-a:hover{
+    color:orangered;
+}
+.nav-b::after{
+    content: "";
+    position: absolute;
+    background-color: burlywood;
+    height: 2px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+    transition:0.5s;
+}
+.nav-b:hover::after{
+    width: 100%;
+}
+.nav-b:hover{
+    color:orangered
+}
+.a,.b,.c{
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.268)
+
+}
+.resume{
+    margin-top: 20px;
+}
+.res{
+    padding: 12px;
+    font-size: 20px;
+    background-color: yellow;
+    border: none;
+    box-shadow: 1px 1px 2px 3px yellow;
+    cursor: pointer;
+}
+
+
+.logo{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:30px;
+}
+.c{
+    animation-name: blind;
+    animation-duration: 10s;
+    animation-fill-mode:backwards;
+    animation-iteration-count: 1;
+}
+@keyframes blind {
+    
+    100%{
+
+      color:orangered;
+    }
+}
+.b{
+    animation-name: blind1;
+    animation-duration: 10s;
+    animation-fill-mode:backwards;
+    animation-iteration-count: 1;
+}
+@keyframes blind2 {
+    
+    100%{
+
+      color:blue;
+    }
+}
+.a{
+    animation-name: blind2;
+    animation-duration: 10s;
+    animation-fill-mode:backwards;
+    animation-iteration-count: 1;
+}
+@keyframes blind1 {
+    
+    100%{
+
+      color:black;
+    }
+}
+.merge{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.emoji{
+    width:200px;
+    vertical-align: sub;
+
+}
+.emo{
+    max-width: 100%;
+    max-height: 100%;
+}
+.contain{
+    background-color: #52057B;
+display: flex;
+align-items: center;
+justify-content:space-around;
+padding:25px 20px 100px 20px;
+}
+
+.img-1{
+    width:340px;
+    border:none;
+}
+.img_1{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: sub;
+    box-shadow:1px 1px 20px 5px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.img_1:hover{
+    opacity: 1;
+    border-radius: 0;
+}
+.title{
+    font-size:8rem;
+    color:orangered;
+    text-shadow:2px 1px  orangered;
+    font-family:"Playfair display",Arial, Helvetica, sans-serif;
+
+}
+
+.name{
+    font-size:3.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:cadetblue;
+    
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head p{
+    font-size: 2.9rem;
+    color: white;
+}
+.outer{
+    background-color: white;
+}
+.inner{
+    padding: 7px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:none;
+}
+.giff{
+    max-width:380px;
+
+}
+.gif{
+    max-width:100%;
+    max-height: 100%;
+
+}
+.text{
+    font-size: 40px;
+    font-family: "pacifico";
+    
+}
+.top{
+    text-align: center;
+}
+.headskill{
+    font-size:55px;
+    color: aquamarine;
+}
+
+.skillset{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.html,.css,.js{
+    padding: 10px;
+    width:270px;
+    height: 190px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px dashed rgba(0, 0, 0, 0.468);
+    box-shadow: 1px 1px 19px 5px rgba(203, 199, 199, 0.468);
+    cursor: pointer;
+
+}
+.h,.c,.j{
+    width:50%;
+}
+.skillse{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.skill-section{
+    background-color: #52057B;
+    padding-bottom: 15px;
+
+}
+.html:hover{
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(228, 108, 3, 0.915);
+}
+.css:hover{
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 190, 228, 0.915);
+}
+.js:hover{
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(228, 228, 3, 0.915);
+}
+.boot:hover{
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(133, 1, 241, 0.915);
+}
+.node:hover{
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 80, 22, 0.915);
+}
+.mongo:hover{
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(242, 31, 144, 0.915);
+}
+.hobbies{
+    background-color: whitesmoke;
+
+}
+.hob-head{
+    text-align: center;
+    margin-top:20px;  
+     
+}
+.hob-p{
+    font-size: 45px;
+}
+.collape{
+    width:440px;
+}
+.coll{
+    width: 100%;
+}
+
+/* four */
+.carde{
+margin-left: 20px;
+}
+
+.outer-card{
+    width:300px;
+    height:400px;
+    background-color: wheat;
+box-shadow: 2px 2px 20px 5px rgba(4, 167, 243, 0.505);
+border-radius:2%;    
+margin-bottom: 10px;
+}
+.gif-sec{
+    height:230px;
+    
+
+}
+.hob-gif{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.about-gif1{
+    font-size: 35px;
+    text-align: center;
+    font-family:"Playfair display",Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px darkmagenta;
+}
+
+.brief1{
+    font-size: 20px;
+    margin-left: 2px;
+    line-height:25px;
+    word-spacing:3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.grid-hob{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.outer-card:hover{
+    scale: 1.02;
+}
+.project-title{
+    background-color: #52057B;
+    text-align: center;
+    font-size: 60px;
+    color:greenyellow;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(140, 238, 241, 0.484);
+}
+.grid-box{
+    max-width:750px;
+transition: 0.3s scale;
+}
+.grid-box:hover{
+    scale:1.01;
+}
+
+.one{
+    width: 100%;
+    border-radius:2%;
+    border: none;
+}
+.end{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.endbut{cursor: pointer;
+    padding: 13px;
+    background:linear-gradient(yellow,orange);
+}
+.aut{
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.foot{
+    background-color: #52057B;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width:1050px) {
+    .grid-hob{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-box{
+        max-width: 900px;
+    }
+}
+@media (max-width:650px) {
+    .img-1{
+        display: none;
+    }
+    
+}
+@media (max-width:630px) {
+    .grid-hob{
+        grid-template-columns:auto;
+    }
+    .grid-box{
+        max-width:700px;
+    }
+    .grid-container{
+        grid-template-columns:1fr;
+    }
+    .text{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:450px) {
+    .text{
+        font-size: 12px;
+    }
+    .grid-box{
+        max-width: 800px;
+    }
+    .title{
+        font-size: 4rem;
+    }
+    .emoji{
+        width: 150px;
+    }
+    .emo{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .name{
+        font-size: 35px;
+    }
+    .res{
+        padding: 6px;
+    }
+    .skillset,.skillse{
+        margin-left: 15px;
+    }
+
+    
+}
